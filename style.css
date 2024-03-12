@@ -55,3 +55,20 @@ body {
   white-space: nowrap;
   border-width: 0;
 }
+
+header {
+  background-color: #101824;
+}
+
+main {
+  background-color:white;
+  color:black;
+}
+
+footer {
+  background-color: #101824;
+}
+
+h1 {
+  background-color:rgb(139, 8, 8);
+}
