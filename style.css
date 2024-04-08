@@ -1,4 +1,3 @@
-
 /*
   CSS File
 */
@@ -71,4 +70,24 @@ footer {
 
 h1 {
   background-color:rgb(139, 8, 8);
+}
+
+.behindTheScenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.aboutUs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.gridTitle {
+  grid-column-start: 2;
+}
+
+.gridDescription {
+  grid-column-start: 2;
 }
