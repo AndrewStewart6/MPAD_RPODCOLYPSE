@@ -73,21 +73,36 @@ h1 {
 }
 
 .behindTheScenes {
+  padding: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-columns: 1fr 2fr;
+  border-radius: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: fr ;
 }
 
 .aboutUs {
+  padding: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  border-radius: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: fr ;
 }
 
 .gridTitle {
-  grid-column-start: 2;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 .gridDescription {
-  grid-column-start: 2;
+  grid-column-start: 2 ;
+  grid-row-start: 1;
 }
+
+
+
+.gridPic {
+grid-row-start: 1;
+grid-column-start: 3;
+}
+
+
