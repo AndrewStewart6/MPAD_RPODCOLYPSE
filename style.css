@@ -321,3 +321,8 @@ footer {
 .bioh3 {
   font-size:2.5vw;
 }
+
+.hiddenlink {
+  color:#f1faee;
+  text-decoration: none;
+}
