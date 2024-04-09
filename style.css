@@ -326,3 +326,14 @@ footer {
   color:#f1faee;
   text-decoration: none;
 }
+
+.movie {
+  grid-column-start:2;
+  grid-column-end:3;
+  padding-top:2rem;
+}
+
+#movie {
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
