@@ -290,6 +290,7 @@ footer {
 .h2 {
   text-align: center;
   padding-bottom:1rem;
+  font-size:4vw;
 }
 
 .aboutusgrid {
@@ -314,4 +315,9 @@ footer {
 .bio {
   padding-top:1rem;
   padding:1rem;
+  font-size:3vw;
+}
+
+.bioh3 {
+  font-size:3.5vw;
 }
