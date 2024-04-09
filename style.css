@@ -294,4 +294,23 @@ footer {
 .aboutusgrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-bottom:1rem;
+}
+
+.personPhoto{
+  padding-left:1rem;
+}
+
+.person {
+  padding:1rem;
+  background-color: #101824;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color:rgb(222, 222, 222);
+  border-bottom: 1px solid #000000;
+}
+
+.bio {
+  padding-top:1rem;
+  font-size:medium;
 }
