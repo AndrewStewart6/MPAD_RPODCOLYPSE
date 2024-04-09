@@ -287,4 +287,11 @@ footer {
 
 /* done with page 3 */
 
+.h2 {
+  text-align: center;
+}
 
+.aboutusgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
