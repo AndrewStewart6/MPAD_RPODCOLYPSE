@@ -368,3 +368,7 @@ footer {
   grid-column-end:4;
 }
 
+.hiddenlink1 {
+  color:#000000;
+  text-decoration: none;
+}
